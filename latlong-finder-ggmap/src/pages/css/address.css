@@ -1,0 +1,25 @@
+.address {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Khoảng cách giữa các cột */
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+    min-width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.column h3,
+.column p {
+    border: 1px solid #ccc;
+    padding: 5px;
+    /* Tùy chỉnh khoảng cách giữa nội dung và viền */
+    margin: 0;
+    /* Loại bỏ margin mặc định */
+}

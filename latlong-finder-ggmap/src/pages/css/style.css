@@ -1,0 +1,28 @@
+.section {
+    text-decoration: none;
+    outline: none;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+
+}
+
+.link1,
+.link2 {
+    text-decoration: none;
+    outline: none;
+    color: black;
+    padding: 0 20px;
+}
+
+.link1:hover,
+.link2:hover {
+    color: blue;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
